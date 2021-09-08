@@ -1,58 +1,70 @@
-# CA01 - Flixster Part 1
- 
-**Overview**:  This project lets users view a list of movies sourced from the The Movie Database API.
+# Getting Started with Create React App
 
-**Submission Instructions**:
-Once you've completed the required user stories for your project, take the following steps to get your project ready to submit.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Push Code to Github Repository
-	- If this week's assignment is starting a new project, you will have to create a new Github repo. However, if the week's assignment is a continuation of the last week's project, you will NOT create a new project. Copy the project files into the new repository folder and make an initial commit.
+## Available Scripts
 
-2. Create a README Template
-	- Every submission must be accompanied by a README.md using the readme template provided with the assignment to demonstrate which required and optional tasks you've completed.
-	- In your project repository, add a README.md file in the root directory that contains the contents of the README template for that assignment.
-	- If the assignment is a continuation of the same project from a previous week, add the new template to the end of the previous README instead of creating a new file.
-	- Make sure to check off the user stories you've completed.
+In the project directory, you can run:
 
-3. GIF Walkthrough
-	- Your README.md must contain a GIF walkthrough using a recording program of your choice. It should demonstrating how it works with the user stories completed.
-	- We recommend [Kap](https://getkap.co/) for macOS, [ScreenToGif](https://www.screentogif.com/) for Windows, and [peek](https://github.com/phw/peek) for Linux.
-	- [Imgur](https://imgur.com/upload) is a great service for hosting the GIF walkthrough and then linking to it from the README.
-	- When using Imgur, you can right-click on the gif and choose "Copy Image Address" to get the correct address. Make sure the address has a `.gif` extension. If you end up with a url that has a `.gifv` extension, removing the `v` and changing this to `.gif` will ensure the gif renders on GitHub.
+### `npm start`
 
-4. Make sure you've pushed all your latest code up to GitHub
-	- To check this, you can browse your repository on GitHub on your favorite browser to make sure some of your latest changes are present there.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### Check out the Movie DB API
+### `npm test`
 
-- [Check out this video](https://youtu.be/Hfoi4N1ES-4?t=243)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Poke around in the [The Movie Database documentation](https://developers.themoviedb.org/3/getting-started) to familiarize yourself with the API's general structure and features.
+### `npm run build`
 
-    - ["Now Playing" endpoint.](https://developers.themoviedb.org/3/movies/get-now-playing)
-    - Sample Request:
-        - https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed in your browser.
-        - API Key `a07e22bc18f5cb106bfe4cc1f83ad8ed`
-    - Note: It's helpful to install the JSONView Chrome Extension to view the returned JSON more easily.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### MockUp
-You may choose any design libary of your liking. Here are some suggestions:
- - [Bootstrap](https://getbootstrap.com/) `npm i bootstrap react-bootstrap --save`
- - [Material UI](https://material-ui.com) `npm i @material-ui/core --save`
- - [Materialize](https://materializecss.com/) `npm install materialize-css@next --save`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-The mockup below uses the 3rd on the list.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<img src="https://i.imgur.com/aPtuEhy.gif" alt="Mockup gif" /> (https://i.imgur.com/aPtuEhy.gif)
+### `npm run eject`
 
-## User Stories
-A user story is a way to capture requirements for an application from an end-user perspective. It is a common practice in app development and helps to simplify the way requirements are specified.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Required Stories
-- User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API. ***(10 points)***
-	- You may use [this library](https://github.com/cavestri/themoviedb-javascript-library/) to make API calls easier. Download the js file and place it in you project. *You will need to remove everywhere it says* `'use strict';`
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Stretch Stories
-- Ensure a responsive layout. The app should reduce the number of elements displayed in a row based on the screen size. ***(2 points)***
-- Improve the user interface through styling and coloring ***(1 to 5 points depending on the difficulty of UI improvements)***
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
